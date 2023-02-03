@@ -2,7 +2,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('<h1>hello is Docker</h1>')
+    return HttpResponse('У меня получилось!')
 
 
 def second_page(request):
